@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="COTS_exp <= 0.004\nsamples = 100.0%\nvalue = [0.807, 0.193]\nclass = absent", fillcolor="#eb9f68"] ;
+1 [label="samples = 80.7%\nvalue = [1.0, 0.0]\nclass = absent", fillcolor="#e58139"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="samples = 19.3%\nvalue = [0.0, 1.0]\nclass = present", fillcolor="#399de5"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
